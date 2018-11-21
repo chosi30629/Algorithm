@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 
 /**
- * ³× °ªÀÇ ÃÖ´ñ°ª
+ * ë„¤ ê°’ì˜ ìµœëŒ“ê°’
  * @author choseongil
  *
  */
@@ -34,23 +34,23 @@ public class Max4 {
 		int a, b, c, d;
 
 		
-		System.out.println("³× Á¤¼öÀÇ ÃÖ´ñ°ªÀ» ±¸ÇÕ´Ï´Ù.");
+		System.out.println("ë„¤ ì •ìˆ˜ì˜ ìµœëŒ“ê°’ì„ êµ¬í•©ë‹ˆë‹¤.");
 		
-		System.out.print("aÀÇ °ª£º");
+		System.out.print("aì˜ ê°’ï¼š");
 		a = stdIn.nextInt();
 		
-		System.out.print("bÀÇ °ª£º");
+		System.out.print("bì˜ ê°’ï¼š");
 		b = stdIn.nextInt();
 		
-		System.out.print("cÀÇ °ª£º");
+		System.out.print("cì˜ ê°’ï¼š");
 		c = stdIn.nextInt();
 		
-		System.out.print("dÀÇ °ª£º");
+		System.out.print("dì˜ ê°’ï¼š");
 		d = stdIn.nextInt();
 
 		int max = max4(a, b, c, d); 	
 
-		System.out.println("ÃÖ´ñ°ªÀº " + max + "ÀÔ´Ï´Ù.");
+		System.out.println("ìµœëŒ“ê°’ì€ " + max + "ì…ë‹ˆë‹¤.");
 	} // main
 	
 } // end class

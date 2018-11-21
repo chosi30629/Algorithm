@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 
 /**
- * ¼¼ °ªÀÇ ÃÖ´ñ°ª
+ * ì„¸ ê°’ì˜ ìµœëŒ“ê°’
  * @author choseongil
  *
  */

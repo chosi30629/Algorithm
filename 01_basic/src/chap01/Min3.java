@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 
 /**
- * ¼¼ °ªÀÇ ÃÖ¼Ú°ª
+ * ì„¸ ê°’ì˜ ìµœì†Ÿê°’
  * @author choseongil
  *
  */
@@ -30,21 +30,20 @@ public class Min3 {
 	    int a, b, c;
 	
 	    
-	    System.out.println("¼¼ Á¤¼öÀÇ ÃÖ¼Ú°ªÀ» ±¸ÇÕ´Ï´Ù.");
+	    System.out.println("ì„¸ ì •ìˆ˜ì˜ ìµœì†Ÿê°’ì„ êµ¬í•©ë‹ˆë‹¤.");
 	    
-	    System.out.print("aÀÇ °ª£º");  
+	    System.out.print("aì˜ ê°’ï¼š");  
 	    a = stdIn.nextInt();
 	    
-	    System.out.print("bÀÇ °ª£º");  
+	    System.out.print("bì˜ ê°’ï¼š");  
 	    b = stdIn.nextInt();
 	    
-	    System.out.print("cÀÇ °ª£º");  
+	    System.out.print("cì˜ ê°’ï¼š");  
 	    c = stdIn.nextInt();
 	
 	    int min = min3(a, b, c);  
 	
-	    System.out.println("ÃÖ¼Ú°ªÀº " + min + "ÀÔ´Ï´Ù.");
+	    System.out.println("ìµœì†Ÿê°’ì€ " + min + "ì…ë‹ˆë‹¤.");
    } // main
 	   
 } // end class
-

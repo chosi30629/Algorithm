@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 
 /**
- * ³× °ªÀÇ ÃÖ¼Ú°ª
+ * ë„¤ ê°’ì˜ ìµœì†Ÿê°’
  * @author choseongil
  *
  */
@@ -34,23 +34,23 @@ public class Min4 {
 		int a, b, c, d;
 
 		
-		System.out.println("³× Á¤¼öÀÇ ÃÖ¼Ú°ªÀ» ±¸ÇÕ´Ï´Ù.");
+		System.out.println("ë„¤ ì •ìˆ˜ì˜ ìµœì†Ÿê°’ì„ êµ¬í•©ë‹ˆë‹¤.");
 		
-		System.out.print("aÀÇ °ª£º");  
+		System.out.print("aì˜ ê°’ï¼š");  
 		a = stdIn.nextInt();
 		
-		System.out.print("bÀÇ °ª£º");  
+		System.out.print("bì˜ ê°’ï¼š");  
 		b = stdIn.nextInt();
 		
-		System.out.print("cÀÇ °ª£º");  
+		System.out.print("cì˜ ê°’ï¼š");  
 		c = stdIn.nextInt();
 		
-		System.out.print("dÀÇ °ª£º");  
+		System.out.print("dì˜ ê°’ï¼š");  
 		d = stdIn.nextInt();
 
 		int min = min4(a, b, c, d);   
 
-		System.out.println("ÃÖ¼Ú°ªÀº " + min + "ÀÔ´Ï´Ù.");
+		System.out.println("ìµœì†Ÿê°’ì€ " + min + "ì…ë‹ˆë‹¤.");
 	} // main
    
 } // end class

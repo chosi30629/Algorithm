@@ -4,9 +4,9 @@ import java.util.Scanner;
 
 
 /**
- * ¼¼ °ªÀÇ ÃÖ´ñ°ª
+ * ì„¸ ê°’ì˜ ìµœëŒ“ê°’
  * @author choseongil
- * ¾Ë°í¸®Áò : ¹®Á¦¸¦ ÇØ°áÇÏ±â À§ÇÑ °ÍÀ¸·Î, ¸íÈ®ÇÏ°Ô Á¤ÀÇµÇ°í ¼ø¼­°¡ ÀÖ´Â À¯ÇÑ °³ÀÇ ±ÔÄ¢À¸·Î ÀÌ·ç¾îÁø ÁıÇÕ
+ * ì•Œê³ ë¦¬ì¦˜ : ë¬¸ì œë¥¼ í•´ê²°í•˜ê¸° ìœ„í•œ ê²ƒìœ¼ë¡œ, ëª…í™•í•˜ê²Œ ì •ì˜ë˜ê³  ìˆœì„œê°€ ìˆëŠ” ìœ í•œ ê°œì˜ ê·œì¹™ìœ¼ë¡œ ì´ë£¨ì–´ì§„ ì§‘í•©
  *
  */
 public class Max3 {
@@ -15,15 +15,15 @@ public class Max3 {
 		Scanner stdIn = new Scanner(System.in);
 
 		
-		System.out.println("¼¼ Á¤¼öÀÇ ÃÖ´ñ°ªÀ» ±¸ÇÕ´Ï´Ù.");
+		System.out.println("ì„¸ ì •ìˆ˜ì˜ ìµœëŒ“ê°’ì„ êµ¬í•©ë‹ˆë‹¤.");
 		
-		System.out.print("aÀÇ °ª : ");
+		System.out.print("aì˜ ê°’ : ");
 		int a = stdIn.nextInt();
 		
-		System.out.print("bÀÇ °ª : ");
+		System.out.print("bì˜ ê°’ : ");
 		int b = stdIn.nextInt();
 		
-		System.out.print("cÀÇ °ª : ");
+		System.out.print("cì˜ ê°’ : ");
 		int c = stdIn.nextInt();
 		
 		int max = a;
@@ -36,7 +36,7 @@ public class Max3 {
 			max = c;
 		} // if
 		
-		System.out.println("ÃÖ´ñ°ªÀº " + max + "ÀÔ´Ï´Ù.");
+		System.out.println("ìµœëŒ“ê°’ì€ " + max + "ì…ë‹ˆë‹¤.");
 	} // main
 	
 } // end class

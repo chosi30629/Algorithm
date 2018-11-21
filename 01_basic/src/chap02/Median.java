@@ -2,8 +2,9 @@ package chap02;
 
 import java.util.Scanner;
 
+
 /**
- * ¼¼ °ªÀÇ Áß¾Ó°ª
+ * ì„¸ ê°’ì˜ ì¤‘ì•™ê°’
  * @author choseongil
  *
  */
@@ -31,18 +32,18 @@ public class Median {
 		Scanner stdIn = new Scanner(System.in);
 		
 		
-		System.out.println("¼¼ Á¤¼öÀÇ Áß¾Ó°ªÀ» ±¸ÇÕ´Ï´Ù.");
+		System.out.println("ì„¸ ì •ìˆ˜ì˜ ì¤‘ì•™ê°’ì„ êµ¬í•©ë‹ˆë‹¤.");
 		
-		System.out.print("aÀÇ °ª : ");
+		System.out.print("aì˜ ê°’ : ");
 		int a = stdIn.nextInt();
 		
-		System.out.print("bÀÇ °ª : ");
+		System.out.print("bì˜ ê°’ : ");
 		int b = stdIn.nextInt();
 		
-		System.out.print("cÀÇ °ª : ");
+		System.out.print("cì˜ ê°’ : ");
 		int c = stdIn.nextInt();
 		
-		System.out.println("Áß¾Ó°ªÀº " + med3(a, b, c) + "ÀÔ´Ï´Ù.");
+		System.out.println("ì¤‘ì•™ê°’ì€ " + med3(a, b, c) + "ì…ë‹ˆë‹¤.");
 	} // main
 	
 } // end class
